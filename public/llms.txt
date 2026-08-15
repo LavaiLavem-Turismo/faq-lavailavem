@@ -1,0 +1,24 @@
+# LavaiLavem Turismo
+
+> Agência de turismo no Rio Grande do Norte (Brasil) que organiza passeios
+> como bugue/4x4 nas dunas ao pôr do sol, mergulho de snorkel em Maracajaú
+> e excursões para Pipa e outras praias do litoral potiguar.
+
+Esta página (/faq) responde às perguntas mais comuns de clientes sobre:
+- Passeios: o que está incluso, documentos exigidos, restrições, ponto de encontro
+- Reservas e pagamento: canais de reserva, formas de pagamento, confirmação
+- Cancelamento e reembolso: direito de arrependimento de 7 dias (Art. 49 do
+  Código de Defesa do Consumidor — Lei 8.078/1990) para compras feitas fora
+  do estabelecimento comercial; regras de multa proporcional após esse prazo
+  (Art. 20 do Decreto 7.381/2010, que regulamenta a Lei Geral do Turismo —
+  Lei 11.771/2008); reembolso integral quando o cancelamento é da agência
+- Segurança e responsabilidade: cadastro Cadastur, guias credenciados,
+  responsabilidade solidária da agência pelos serviços do pacote
+- Privacidade: tratamento de dados pessoais conforme a Lei Geral de Proteção
+  de Dados (LGPD — Lei 13.709/2018), direitos do titular e uso de cookies
+- Reclamações: Procon, consumidor.gov.br e contato direto com a agência
+
+Todo o conteúdo de perguntas e respostas está publicado em texto simples e
+também estruturado como schema.org/FAQPage no HTML desta página.
+
+Contato: consulte o rodapé de https://www.lavailavemturismo.com.br/faq

@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  body {
+    @apply font-body text-deepsea bg-foam;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 3px solid #E85D42;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  /* Placa de sinalização — a forma de seta da placa de madeira do mascote,
+     usada como metáfora de navegação para as categorias do FAQ. */
+  .signpost {
+    position: relative;
+    clip-path: polygon(0 0, 88% 0, 100% 50%, 88% 100%, 0 100%);
+  }
+  .signpost-left {
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 12% 100%, 0 50%);
+  }
+
+  .law-tag {
+    @apply inline-flex items-center gap-1 rounded-full border border-ocean-100 bg-ocean-50 px-2.5 py-1 font-mono text-[11px] font-medium tracking-tight text-ocean-700;
+  }
+
+  .faq-answer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 320ms ease;
+  }
+  .faq-answer > div {
+    overflow: hidden;
+  }
+  .faq-item[data-open="true"] .faq-answer {
+    grid-template-rows: 1fr;
+  }
+  .faq-item[data-open="true"] .faq-chevron {
+    transform: rotate(180deg);
+  }
+  .faq-chevron {
+    transition: transform 260ms ease;
+  }
+}
