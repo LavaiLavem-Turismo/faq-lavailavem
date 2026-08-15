@@ -1,0 +1,13 @@
+{
+  "name": "lavailavem-faq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FAQ dos passeios da LavaiLavem Turismo",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
